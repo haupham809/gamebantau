@@ -1,0 +1,13 @@
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\bin\Debug\netcoreapp3.1\BanTauNguoiVsMay.exe
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\bin\Debug\netcoreapp3.1\BanTauNguoiVsMay.deps.json
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\bin\Debug\netcoreapp3.1\BanTauNguoiVsMay.runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\bin\Debug\netcoreapp3.1\BanTauNguoiVsMay.runtimeconfig.dev.json
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\bin\Debug\netcoreapp3.1\BanTauNguoiVsMay.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\bin\Debug\netcoreapp3.1\BanTauNguoiVsMay.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\obj\Debug\netcoreapp3.1\BanTauNguoiVsMay.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\obj\Debug\netcoreapp3.1\BanTauNguoiVsMay.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\obj\Debug\netcoreapp3.1\BanTauNguoiVsMay.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\obj\Debug\netcoreapp3.1\BanTauNguoiVsMay.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\obj\Debug\netcoreapp3.1\BanTauNguoiVsMay.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\obj\Debug\netcoreapp3.1\BanTauNguoiVsMay.genruntimeconfig.cache
+C:\Users\ADMIN\OneDrive\Máy tính\BanTauNguoiVsMay\BanTauNguoiVsMay\obj\Debug\netcoreapp3.1\BanTauNguoiVsMay.csprojAssemblyReference.cache

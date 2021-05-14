@@ -1,0 +1,13 @@
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\bin\Debug\netcoreapp3.1\Bantaunguoivsnguoi.exe
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\bin\Debug\netcoreapp3.1\Bantaunguoivsnguoi.deps.json
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\bin\Debug\netcoreapp3.1\Bantaunguoivsnguoi.runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\bin\Debug\netcoreapp3.1\Bantaunguoivsnguoi.runtimeconfig.dev.json
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\bin\Debug\netcoreapp3.1\Bantaunguoivsnguoi.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\bin\Debug\netcoreapp3.1\Bantaunguoivsnguoi.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\obj\Debug\netcoreapp3.1\Bantaunguoivsnguoi.csprojAssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\obj\Debug\netcoreapp3.1\Bantaunguoivsnguoi.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\obj\Debug\netcoreapp3.1\Bantaunguoivsnguoi.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\obj\Debug\netcoreapp3.1\Bantaunguoivsnguoi.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\obj\Debug\netcoreapp3.1\Bantaunguoivsnguoi.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\obj\Debug\netcoreapp3.1\Bantaunguoivsnguoi.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\Bantaunguoivsnguoi\Bantaunguoivsnguoi\obj\Debug\netcoreapp3.1\Bantaunguoivsnguoi.genruntimeconfig.cache
