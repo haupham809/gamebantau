@@ -5,8 +5,8 @@ namespace BanTauNguoiVsMay
 {
     class Program
     {
-        public static int[,] vitringuoi1 = new int[10, 2] { { 1, 6 }, { 1, 8 }, { 2, 2 }, { 3, 2 }, { 5, 1 }, { 7, 1 }, { 4, 4 }, { 4, 8 }, { 6, 10 }, { 9, 10 } };
-        public static int[,] vitringuoi2 = new int[10, 2] { { 1, 6 }, { 1, 8 }, { 2, 2 }, { 3, 2 }, { 5, 1 }, { 7, 1 }, { 4, 4 }, { 4, 8 }, { 6, 10 }, { 9, 10 } };
+        public static int[,] vitringuoi1 = new int[20, 2] /*{ { 1, 6 }, { 1, 8 }, { 2, 2 }, { 3, 2 }, { 5, 1 }, { 7, 1 }, { 4, 4 }, { 4, 8 }, { 6, 10 }, { 9, 10 } }*/;
+        public static int[,] vitringuoi2 = new int[20, 2] /*{ { 1, 6 }, { 1, 8 }, { 2, 2 }, { 3, 2 }, { 5, 1 }, { 7, 1 }, { 4, 4 }, { 4, 8 }, { 6, 10 }, { 9, 10 } }*/;
         public static double diemnguoichoi1 = 0;
         public static double diemnguoichoi2 = 0;
         public static void chonvitri()
@@ -55,36 +55,45 @@ namespace BanTauNguoiVsMay
                         Console.WriteLine("\nTọa độ đầu tàu ");
                         Random rd = new Random();
                         x = rd.Next(1, 10);
-                        Console.Write("Tọa độ x= ",z);
+                        Console.Write("Tọa độ x= "+x);
                         y = rd.Next(1, 10);
-                        Console.Write("Tọa độ y= ",y);
+                        Console.Write("Tọa độ y= "+y);
                         Console.WriteLine("\nTọa độ đuôi tàu ");
                             int q = 0;
-                            while (q != 0)
+                            while (q == 0)
                             {
                                 z = rd.Next(1, 10);
                                 t = rd.Next(1, 10);
                                 if (z == x)
                                 {
                                     q++;
-                                    t = y + j;
+                                    t = y + j-1;
                                 }
                                 else if (t == y)
                                 {
                                     q++;
-                                    z = x + j;
+                                    z = x + j-1;
                                 }
+                                else if (z >= t)
+                            {
+                                z = x;
+                                t  = y + j - 1;
+
                             }
+                            else 
+                            {
+                                t = y;
+                                z = x + j - 1;
+
+                            }
+
+                        }
                         
 
                         Console.Write("Tọa độ x= "+z);
                         
                         Console.Write("Tọa độ y= "+t);
-                        if(Math.Sqrt(Math.Pow(x - z, 2) + Math.Pow(y - t, 2)) != j+1)
-                        {
-                            j--;
-                            continue;
-                        }
+                       
                        
                     
 }
@@ -143,8 +152,8 @@ namespace BanTauNguoiVsMay
                                 int kt = 0;
                                 for (int k = 0; k <= a; k += 2)
                                 {
-                                    if ((x == vitringuoi1[k, 0] && y == vitringuoi1[k, 1]) || (z == vitringuoi1[k, 0] && t == vitringuoi1[k, 1]) ||
-                                            (x == vitringuoi1[k + 1, 0] && y == vitringuoi1[k + 1, 1]) || (z == vitringuoi1[k + 1, 0] && t == vitringuoi1[k + 1, 1]))
+                                    if ((x == vitringuoi2[k, 0] && y == vitringuoi2[k, 1]) || (z == vitringuoi2[k, 0] && t == vitringuoi2[k, 1]) ||
+                                            (x == vitringuoi2[k + 1, 0] && y == vitringuoi2[k + 1, 1]) || (z == vitringuoi2[k + 1, 0] && t == vitringuoi2[k + 1, 1]))
                                     {
                                         kt++;
                                         Console.WriteLine("\nTọa độ toa do duoi tau va dau tau bi trung voi toa do duoi tau dau tau khac ");
@@ -161,7 +170,7 @@ namespace BanTauNguoiVsMay
                                     vitringuoi2[a + 1, 1] = t;
                                     showlocation(i);
                                 }
-
+                                
                             }
                         }
 
@@ -327,7 +336,7 @@ namespace BanTauNguoiVsMay
         public static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            /*chonvitri();*/
+            chonvitri();
             showlocation(1);
             showlocation(2);
             Console.WriteLine("\nnhap so làm chon vi tri de ban ");
